@@ -1,0 +1,25 @@
+.navbar{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    color: white;
+    gap: 1in;
+}
+
+.item{
+    margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar{
+        
+        width: 100%;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        text-align: center;
+        gap: .001in;
+    }
+}
